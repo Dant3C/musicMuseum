@@ -12,6 +12,9 @@
 
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<!-- link to js file  -->
+	   <script src="script.js"></script>
+
 
     <!-- Popper JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -24,7 +27,7 @@
   </head>
   <body>
 <!--NAV BAR START---->
-    <nav class="navbar navbar-expand-md bg-danger navbar-dark">
+     <nav class="navbar navbar-expand-md bg-danger navbar-dark">
 	<!-- brand -->
       <a class="navbar-brand" href="#">My Website</a>
 	  <!-- collapse button -->
@@ -37,18 +40,17 @@
           <li class="nav-item active">
             <a class="nav-link" href="index.html">Home</a>
           </li>
-          
+         
 		  <li class="nav-item dropdown">
       <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
         ROC
       </a>
       <div class="dropdown-menu">
         <a class="dropdown-item" href="car.html">car seat headrest</a>
-        <a class="dropdown-item" href="gizz.html">king gizzard and the lizard wizard</a>
+        <a class="dropdown-item disabled" href="gizz.html">king gizzard and the lizard wizard</a>
         <a class="dropdown-item disabled" href="#">empty</a>
       </div>
 	  </li>
-		  
 		  <li class="nav-item dropdown">
       <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
         HIP
@@ -78,9 +80,9 @@
 	  <button class="btn btn-success" type="submit">search</button>
 	  </form>
     </nav>
-	<!--NAV BAR END-->
-	<h1>HOME</h1>
-	<!-- CAROUSEL BEGIN -->
+	<!-- NAV BAR END   -->
+	<h1>PAGE GIZZ</h1>
+		<!-- CAROUSEL BEGIN -->
 	<div id="car" class="carousel slide" data-ride="carousel">
 	<ul class="carousel-indicators">
 	<li data-target="#car" data-slide-to="0" class="active"></li>
