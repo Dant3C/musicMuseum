@@ -3,10 +3,32 @@
   text-align: center;
   background-color: SaddleBrown;
   border: solid 2px black;
-}
+  margin: 20px;
+
+  }
 
 #panel {
   padding: 20px;
   display: none;
  background-color: tomato; 
+}
+.carousel-inner img {
+	
+	width: 100%;
+	height: 100%;
+}
+/* .carousel-item img { */
+	/* padding: auto; */
+	/* margin: auto; */
+/* } */
+
+.factBox {
+  background-color: tomato;
+  color: white;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+}
+.fact {
+	background-color: cornsilk;
 }
